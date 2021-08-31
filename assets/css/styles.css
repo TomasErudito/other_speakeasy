@@ -1,0 +1,33 @@
+
+#header {
+    margin: 0;
+    padding: 0;
+}
+
+.header_top{
+    display: inline-flex;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+/* colors-----------------*/
+
+.gold{
+    background-color: #dba71a;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+.grey{
+    background-color: #414141;
+    color: #f4f4f4;
+}
+
+/*images-----------------------*/
+
+.image{
+    width: 100%;
+}
