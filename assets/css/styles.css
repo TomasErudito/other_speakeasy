@@ -29,10 +29,14 @@ img{
     text-align: center;
 }
 
+.espace{
+    margin-bottom: 20px;
+}
+
 /* colors-----------------*/
 
 .gold{
-    background-color: #dba71a;
+    background-color: #866e2f;
 }
 
 body {
@@ -59,13 +63,12 @@ body {
   }
 
 #navbarSpeakeasy a:hover{
-    background-color: #dba71a;
+    background-color: #866e2f;
     color: #414141;
     padding-left: 10%;
   }
 
 /*footer-------------------------*/
-
 
 #footer ul{
     display: inline-flex;
@@ -78,5 +81,35 @@ body {
 }
 
 #footer i{
-    color:#414141;
+    color:#f4f4f4;
+}
+
+/*book_banner-----------------------*/
+
+.book_btn{
+    width: 66%;
+    margin: 10px 10px 10px 0;
+    padding: 0 6px;
+    background-color: #866e2f;
+    vertical-align: auto;
+    color: #f4f4f4;
+}
+
+#booking_banner{
+    margin-bottom: 20PX;
+}
+
+#banner_background{
+    background-image: url(../images/HF_logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+    padding: 20px;
+    overflow: visible;
+    position: relative;
+    top: -17px;
+}
+
+#banner_container{
+    height:60px;
 }
