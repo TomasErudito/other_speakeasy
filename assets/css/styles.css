@@ -1,4 +1,6 @@
 
+/*position------------------*/
+
 #header {
     margin: 0;
     padding: 0;
@@ -23,6 +25,10 @@ img{
     margin: 0 auto;
 }
 
+.center_content{
+    text-align: center;
+}
+
 /* colors-----------------*/
 
 .gold{
@@ -41,4 +47,36 @@ body {
 
 .images{
     width: 100%;
+}
+
+
+/*navigation--------------------*/
+
+
+
+#navbarSpeakeasy{
+    text-align: center;
+  }
+
+#navbarSpeakeasy a:hover{
+    background-color: #dba71a;
+    color: #414141;
+    padding-left: 10%;
+  }
+
+/*footer-------------------------*/
+
+
+#footer ul{
+    display: inline-flex;
+}
+
+#footer li{
+    padding: 10px;
+    list-style: none;
+    font-size: xx-large;
+}
+
+#footer i{
+    color:#414141;
 }
