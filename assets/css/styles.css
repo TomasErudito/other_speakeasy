@@ -57,18 +57,24 @@ body {
 /*navigation--------------------*/
 
 
-
 #navbarSpeakeasy{
     text-align: center;
   }
 
-#navbarSpeakeasy a:hover{
-    background-color: #866e2f;
+#navbarSpeakeasy a{
     color: #414141;
     padding-left: 10%;
+}
+
+#navbarSpeakeasy a:hover{
+    background-color: #866e2f;
   }
 
 /*footer-------------------------*/
+
+#footer{
+    margin-top: 20px;
+}
 
 #footer ul{
     display: inline-flex;
@@ -112,4 +118,17 @@ body {
 
 #banner_container{
     height:60px;
+}
+
+.circle{
+    border-radius: 50%;
+    max-width: 190px;
+}
+
+/*content------------------*/
+
+.content{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #866e2f;
 }
