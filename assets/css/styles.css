@@ -1,10 +1,5 @@
 
-/*position------------------*/
-
-#header {
-    margin: 0;
-    padding: 0;
-}
+/*position------------------------*/
 
 img{
     margin: 0 0 0 0;
@@ -15,10 +10,6 @@ img{
 .reset{
     margin: 0;
     padding: 0;
-}
-
-.header_top{
-    display: inline-flex;
 }
 
 .center{
@@ -33,10 +24,10 @@ img{
     margin-bottom: 20px;
 }
 
-/* colors-----------------*/
+/* colors------------------------*/
 
 .gold{
-    background-color: #866e2f;
+    background-color: #c1a138;
 }
 
 body {
@@ -47,14 +38,30 @@ body {
     color: #f4f4f4;
 }
 
-/*images-----------------------*/
+/*images--------------------------*/
 
 .images{
     width: 100%;
 }
 
+/*header---------------------------*/
 
-/*navigation--------------------*/
+#header {
+    margin: 0;
+    padding: 0;
+}
+
+.header_top{
+    display: inline-flex;
+}
+
+.header_title{
+    font-family: asenine;
+    margin-left: 20px;
+}
+
+
+/*navigation-----------------------*/
 
 
 #navbarSpeakeasy{
@@ -67,36 +74,18 @@ body {
 }
 
 #navbarSpeakeasy a:hover{
-    background-color: #866e2f;
+    background-color: #414141;
+    color: #f4f4f4;
   }
 
-/*footer-------------------------*/
-
-#footer{
-    margin-top: 20px;
-}
-
-#footer ul{
-    display: inline-flex;
-}
-
-#footer li{
-    padding: 10px;
-    list-style: none;
-    font-size: xx-large;
-}
-
-#footer i{
-    color:#f4f4f4;
-}
-
+  
 /*book_banner-----------------------*/
 
 .book_btn{
     width: 66%;
     margin: 10px 10px 10px 0;
     padding: 0 6px;
-    background-color: #866e2f;
+    background-color: #c1a138;
     vertical-align: auto;
     color: #f4f4f4;
 }
@@ -120,15 +109,54 @@ body {
     height:60px;
 }
 
-.circle{
-    border-radius: 50%;
-    max-width: 190px;
-}
-
-/*content------------------*/
+/*content-------------------------*/
 
 .content{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: #866e2f;
+}
+
+/*downloads------------------------*/
+
+.circle{
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    text-align: center;
+}
+
+.circle_content{
+    margin-top: 65px;
+    position: absolute;
+    width: 190px;
+    color: #f4f4f4;
+}
+
+.circle:hover{
+    background-color: #414141;
+    color: #c1a138;
+}
+
+.circle_content:hover{
+    color: #c1a138;
+}
+
+/*footer----------------------------*/
+
+#footer{
+    margin-top: 20px;
+}
+
+#footer ul{
+    display: inline-flex;
+}
+
+#footer li{
+    padding: 10px;
+    list-style: none;
+    font-size: xx-large;
+}
+
+#footer i{
+    color:#f4f4f4;
 }
