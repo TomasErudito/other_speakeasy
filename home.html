@@ -14,7 +14,7 @@
     <section id="header" class="container-fluid">
         <div class="row no-gutters">
             <div class="center col-10 header_top">
-                <div class="reset col-10 no-gutters gold">
+                <div class="reset col-9 no-gutters gold">
                   <h1 class="header_title">HANGFIRE</h1>
                 </div>
                 <div id="navigation" class="gold reset col no-gutters">
@@ -63,7 +63,7 @@
         <div class="row">
             <div id="banner_container" class="reset col-10 grey center">
                 <div id="banner_background">
-                    <p class="reset"><button class="reset book_btn btn btn-lg" data-toggle="modal" data-target="#bookEvent">Book Now!</button></p>
+                    <p class="reset"><button class="reset book_btn btn btn-lg" data-toggle="modal" data-target="#booking_modal">Book Now!</button></p>
                 </div>
             </div>
         </div>
@@ -97,6 +97,59 @@
                 </ul>
             </div>
         </div>
+    </div>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="booking_modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header gold">
+            <h5 class="modal-title" id="bookingModalLongTitle">HANGFIRE</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div>
+              <h4>Fill the form to start your Speakeasy experience!</h4>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                <div class="form-group">
+                    <label for="bookingEmail">Email address</label>
+                    <input type="email" class="form-control" id="bookingEmail" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="bookingDate">When will you visit us?</label>
+                    <select id="bookingDate" name="date">
+                      <option value="26_sept">26 SEPTEMBER</option>
+                      <option value="18_oct">18 OCTOBER</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bookingNumber">For how many people is the booking?</label>
+                    <input type="number" class="form-control" id="bookingNumber" placeholder="2" min="2" max="6">
+                </div>
+                <div class="form-group">
+                    <label for="allergies">Any dietary requirements?</label>
+                    <input type="text" class="form-control" id="allergies" placeholder="No dietary requirements">
+                </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary gold">Confirm Booking</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
