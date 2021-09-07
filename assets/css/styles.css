@@ -28,6 +28,7 @@ img{
 
 .gold{
     background-color: #c1a138;
+    border-color:#c1a138 ;
 }
 
 body {
@@ -37,6 +38,7 @@ body {
     background-color: #414141;
     color: #f4f4f4;
 }
+
 
 /*images--------------------------*/
 
@@ -159,4 +161,48 @@ body {
 
 #footer i{
     color:#f4f4f4;
+}
+
+/*next_dates---------------------*/
+
+#next_dates{
+    padding: 20px 0;
+    font-family: asenine;
+}
+
+.divider{
+    height: 2px;
+    background-color: #f4f4f4;
+    width: 50%;
+}
+
+.dates{
+    font-size: 3.75rem;
+    line-height: 1;
+}
+
+.dates_circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.dates_circle_content{
+    width: 140px;
+    color: #f4f4f4;
+}
+
+.dates_circle:hover{
+    background-color: #414141;
+    color: #c1a138;
+}
+
+.dates_circle_content:hover{
+    color: #c1a138;
+}
+
+/*modal-----------------------*/
+
+.modal-header{
+    font-family: asenine;
 }
