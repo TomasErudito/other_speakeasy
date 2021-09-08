@@ -60,7 +60,15 @@ body {
 .header_title{
     font-family: asenine;
     margin-left: 20px;
+    color: #414141;
 }
+
+.header_title:hover{
+    font-family: asenine;
+    margin-left: 20px;
+    color: #414141;
+}
+
 
 
 /*navigation-----------------------*/
@@ -206,3 +214,28 @@ body {
 .modal-header{
     font-family: asenine;
 }
+
+
+
+/*mediaqueries-----------------*/
+
+
+@media screen and (min-width: 960px) {
+    .content{
+        padding: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #navbarSpeakeasy{
+        text-align: center;
+        right: 20px;
+        top: 7px;
+        position: absolute;
+    }
+
+    .downloads{
+        margin-top: 20px;
+    }
+
+  }
