@@ -69,8 +69,6 @@ body {
     color: #414141;
 }
 
-
-
 /*navigation-----------------------*/
 
 
@@ -96,7 +94,6 @@ body {
     margin: 10px 10px 10px 0;
     padding: 0 6px;
     background-color: #c1a138;
-    vertical-align: auto;
     color: #f4f4f4;
 }
 
@@ -193,11 +190,17 @@ body {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+    text-decoration: none;
+}
+
+.dates_circle a{
+    text-decoration: none;
 }
 
 .dates_circle_content{
-    width: 140px;
+    width: 150px;
     color: #f4f4f4;
+    padding: 10px 20px;
 }
 
 .dates_circle:hover{
