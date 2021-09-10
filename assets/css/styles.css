@@ -1,6 +1,6 @@
 /*fonts---------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=MonteCarlo');
 
 body{
     font-family: "Barlow";
@@ -76,6 +76,10 @@ body {
     color: #414141;
 }
 
+.speakesay_logo{
+    font-family: MonteCarlo;
+}
+
 /*navigation-----------------------*/
 
 
@@ -92,17 +96,6 @@ body {
     background-color: #414141;
     color: #f4f4f4;
   }
-
-/*main_image------------------------*/
-
-.image_loader{
-    max-height: 450px;
-    overflow: hidden;
-}
-
-.image_loader > :first-child{
-    margin-top: -100px;
-}
 
   
 /*book_banner-----------------------*/
@@ -257,6 +250,15 @@ body {
 
     .downloads{
         margin-top: 20px;
+    }
+    
+    .image_loader{
+        max-height: 450px;
+        overflow: hidden;
+    }
+    
+    .image_loader > :first-child{
+        margin-top: -100px;
     }
 
   }
