@@ -6,6 +6,10 @@ body{
     font-family: "Barlow";
 }
 
+.speakesay_word{
+    font-family: MonteCarlo;
+}
+
 /*position------------------------*/
 
 img{
@@ -78,6 +82,7 @@ body {
 
 .speakesay_logo{
     font-family: MonteCarlo;
+    margin-left: 30%;
 }
 
 /*navigation-----------------------*/
