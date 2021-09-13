@@ -267,3 +267,13 @@ body {
     }
 
   }
+
+  
+@media screen and (max-width: 540px) {
+
+    .header_title{
+        font-size: 2em;
+        margin-top: 8px;
+    }
+
+}
