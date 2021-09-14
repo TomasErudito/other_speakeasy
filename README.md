@@ -1,104 +1,200 @@
-ython![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<link rel="stylesheet" href="assets/css/readme_styles.css">
 
-Welcome TomasErudito,
+<h1 align="center">Hangfire Speakeasy Website</h1>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+[View the live project here.](https://codeinstitute.net)
 
-## Gitpod Reminders
+<p>This is the website created for a restaurant called Hangfire. They are hosting a new series of events under the name “Hangfire Speakeasy”. These events are special events where they create special food and drinks menus for each event.</p>
+<br/>
+<h2 align="center"><img src="assets/images/readme_images/devices.jpg"></h2><br/>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Design<br/>
+<br/>
+<p>The spaces are limited, and they must be reserved, this gives the event some exclusivity value. The idea around the name, exclusivity, and the type of food / drinks they will create define the colour scheme used for the website: The roaring 20’s.</p> 
+<br/>
+<h2 align="center"><img src="assets/images/readme_images/colour_palette.png"></h2>
+<br/>
+<p>The approach for the layout was focused on the power of the imagery. The visitor should feel the ambient and the “essence” of the events without need to read long texts. The images are telling the story. Based on this principle, we searched for powerful images that represent the concept clearly: nice food, exciting drinks, cool and relaxed people… all involved in a golden and dark ambient.</p>
 
-`python3 -m http.server`
+<p>The information’s organization should be simple answering 3 questions:</p>
 
-A blue button should appear to click: _Make Public_,
+<p class="indent">•	Who are we?</p>
+<p class="indent">•	What do we offer?</p>
+<p class="indent">•	How can you get what we offer?</p>
 
-Another blue button should appear to click: _Open Browser_.
+<p>So, the website is divided in 3 pages:</p>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<p class="indent">•	Index – Presentation of the new events.</p>
+<p class="indent">•	Menu – Presentation of the food and drinks.</p>
+<p class="indent">•	Next Events – How to book / when.</p>
 
-A blue button should appear to click: _Make Public_,
+<p>The potential customers would be people between 25 and 45 years old, with a medium / high income. These group of people usually are professionals and they main device to connect socially is the mobile phone / tablet, for this reason the design of the website has been created focused on the mobile first approach.</p>
 
-Another blue button should appear to click: _Open Browser_.
+<p>This was the proposed design for the different pages.</p>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br/>
+<img src="assets/images/readme_images/home_mobile.png">
+<img src="assets/images/readme_images/menu_mobile.png">
+<img src="assets/images/readme_images/events_mobile.png">
+<br/>
+<br/>
 
-To log into the Heroku toolbelt CLI:
+<p>The structure is simple so the users can navigate easily through the content, get the information fast, and they should be able of complete the purchase at any moment: </p>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<p class="indent">•	Header with navigation menu.</p>
+<p class="indent">•	Main suggestive image.</p>
+<p class="indent">•	Banner with booking access.</p>
+<p class="indent">•	Content with big imagery.</p>
+<p class="indent">•	Extra information (menu / location…).</p>
+<p class="indent">•	Footer with social media links</p>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<p>The typographies used are Asanine (used for the Hangfire logo), Montecarlo (used for the Speakeasy logo), and Barlow, a very easy to read typography that matches the retro and elegant style of the design (used for all the text on the website).</p>
+<br/>
 
-------
+## UX Goals<br/>
+<br/>
 
-## Release History
+<h3>First Time Visitors</h3>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<p class="indent">•	Should be able to answer the 3 questions we proposed before (Who are we? / What do we offer? / How can I get it?) easily.</p>
+<p class="indent">•	Should feel the ambience and the Speakeasy story.</p>
+<p class="indent">•	Should be comfortable searching for more information.</p>
+<p class="indent">•	Should want to share the website with others.</p>
+<br/>
+<h3>Returning visitors</h3>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<p class="indent">•	Should want to see when new events / menus are available.</p>
+<p class="indent">•	Should be able to book fast.</p>
+<p class="indent">•	Should be reassured on the feeling about the events..</p>
+<br/>
+<h3>Frequent visitors</h3>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<p class="indent">•	Should want to see when new events / menus are available.</p>
+<p class="indent">•	Should be able to book fast.</p>
+<br/>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Technologies used<br/>
+<br/>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+<p>The languages used are:</p>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<p class="indent">•	HTML 5</p>
+<p class="indent">•	CSS</p>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<p>Also, during the creation of the different elements of the project, I used:</p>	
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<p class="indent">•	Photoshop – Create and / or edit images like the logo.</p>
+<p class="indent">•	Bootstrap 4.2.3 – To help with the responsive design.</p>
+<p class="indent">•	JQuery – Used for the navigation bar on mobiles and the carousel on the index page.</p>
+<p class="indent">•	Google Fonts – Used for the Barlow and Montecarlo font families.</p>
+<p class="indent">•	Font Awesome – Used for the icons on all the pages.</p>
+<p class="indent">•	Git – Used for the version control within Gitpod.</p>
+<p class="indent">•	GitHub – Used to store the project.</p>
+<br/>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Testing<br/>
+<br/>
+	
+<p>The W3C validator has been used to ensure that every HTML and CSS files are free of syntax errors*.</p>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<p class="indent">*(I decided to ignore the warning about using sections without a header as this helps in the HTML structure to be clearer and some sections’ contents are mainly graphic and don’t need any header or introduction).</p>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<p>The website has been tested on different browsers:</p>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<p class="indent">•	Google Chrome</p>
+<p class="indent">•	Microsoft Edge</p>
+<p class="indent">•	Opera</p>
+<p class="indent">•	Firefox</p>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<p>Also has been tested on different devices:</p>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<p class="indent">•	Laptop (Windows)</p>
+<p class="indent">•	Desktop (Windows)</p>
+<p class="indent">•	Android tablets</p>
+<p class="indent">•	Mobile phones (Android)</p>
 
-------
+<p>More testing has been done about usability and user experience:</p>
+<br/>
+<h3>First Time Visitors</h3>
 
-## FAQ about the uptime script
+<p class="indent">•	Should be able to answer the 3 questions we proposed before (Who are we? / What do we offer? / How can I get it?) easily.</p>
+<ul>
+<li class="indent">The users can identify the brand, the name of the events, what are the events about and how to book them.</li>
+</ul>
+<p class="indent">•	Should feel the ambience and the Speakeasy story.</p>
+<ul>
+<li class="indent">The users understand the kind of events that the company offers and their ambience / style.</li>
+</ul>
+<p class="indent">•	Should be comfortable searching for more information.</p>
+<ul>
+<li class="indent">The user can easily find more information when required.</li>
+</ul>
+<p class="indent">•	Should want to share the website with others.</p>
+<ul>
+<li class="indent">The perceptions of the website are: “stylish”, “elegant” and “beautiful” and they would share it with friends</li>
+</ul>
+<br/>
+<h3>Returning visitors</h3>
 
-**Why have you added this script?**
+<p class="indent">•	Should want to see when new events / menus are available.</p>
+<ul>
+<li class="indent">When returning, the users go directly to see if there are new menus or events.</li>
+</ul>
+<p class="indent">•	Should be able to book fast.</p>
+<ul>
+<li class="indent">The users find very easy to book for upcoming events.</li>
+</ul>
+<p class="indent">•	Should be reassured on the feeling about the events..</p>
+<ul>
+<li class="indent">The users enjoyed with the quality of the images, and they can visualize themselves in the event.</li>
+</ul>
+<br/>
+<h3>Frequent visitors</h3>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<p class="indent">•	Should want to see when new events / menus are available.</p>
+<ul>
+<li class="indent">The users can book from the first page, and they can book at any moment during their visit.</li>
+</ul>
+<p class="indent">•	Should be able to book fast.</p>
+<ul>
+<li class="indent">Again, the users check if there are new events and / or new menus.</li>
+</ul>
+<br/>
 
-**How will this affect me?**
+## Bugs<br/>
+<br/>
+	
+<p>On the header, on some devices appears a white line between the header and the navigation bar.</p>
+<br/>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Credits<br/>
+<br/>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<h3>Images</h3><br/>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<p>The images used on the website belong to some restaurants and they are used on this project only for academic purposes:</p>	
 
-**So….?**
+<p class="indent">•	Alficon, Athens (photo by Dimitris Tsitsos) <a href="https://www.alficonathens.com/" target="_blank">View</a></p>
+<p class="indent">•	Le speakeasy, Cannes <a href="https://www.lespeakeasy.com/" target="_blank">View</a></p>
+<p class="indent">•	Speakeasy, Barcelona <a href="http://www.drymartiniorg.com/locales/speakeasy/" target="_blank">View</a></p>
+<p class="indent">•	El Gin Tub, Sitges <a href="https://elgintub.com/" target="_blank">View</a></p>
+<p class="indent">•	Bo Speakeasy, Mexico</p>
+<p class="indent">•	The Hoxton, Portland <a href="https://thehoxton.com/portland/" target="_blank">View</a></p>
+<p class="indent">•	Tt Liquor, Bar Cellar, London <a href="https://ttliquor.co.uk/" target="_blank">View</a></p>
+<p class="indent">•	The Office, Chicago <a href="https://www.theaviary.com/" target="_blank">View</a></p>
+<p class="indent">•	PDT, Hong Kong <a href="https://www.mandarinoriental.com/hong-kong/the-landmark/fine-dining/bars/pdt?htl=LMHKG&kw=LMHKG_pdt&eng=yext&src=local" target="_blank">View</a></p>
+<br/>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<h3>External help</h3><br/>
 
-**Can I opt out?**
+<p>To find solutions to some difficulties during the creation of the project, I used:</p>	
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<p class="indent">•	Bootstrap documentation</p>
+<p class="indent">•	W3Schools</p>
+<p class="indent">•	Stackoverflow</p>
+<br/>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+<h3>Thanks to:</h3><br/>
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<p>Aaron Sinnott, he was my mentor on this project, and he gave me good advice about it.</p>
+<p>All the team from Code Institute, for the high quality of the content of the course.</p>
