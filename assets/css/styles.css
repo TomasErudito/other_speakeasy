@@ -132,6 +132,12 @@ body {
 
 /*content-------------------------*/
 
+.section_title {
+    font-family: asenine;
+    font-size: xxx-large;
+    color: #414141;
+}
+
 .content {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -236,10 +242,19 @@ body {
 
 
 @media screen and (min-width: 960px) {
+
     .content {
         padding: 20px;
         margin-top: 0;
         margin-bottom: 0;
+    }
+
+    .content_text {
+        margin: 0;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 80%;
     }
 
     #navbarSpeakeasy {

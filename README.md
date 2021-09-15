@@ -2,7 +2,7 @@
 
 <h1 align="center">Hangfire Speakeasy Website</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://tomaserudito.github.io/other_speakeasy/)
 
 <p>This is the website created for a restaurant called Hangfire. They are hosting a new series of events under the name “Hangfire Speakeasy”. These events are special events where they create special food and drinks menus for each event.</p>
 <br/>
