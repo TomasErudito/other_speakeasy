@@ -33,9 +33,11 @@
 <p>This was the proposed design for the different pages.</p>
 
 <br/>
-<img src="assets/images/readme_images/home_mobile.png" style="max-width="30%">
-<img src="assets/images/readme_images/menu_mobile.png">
-<img src="assets/images/readme_images/events_mobile.png">
+<div style="width:100%;">
+<img src="assets/images/readme_images/home_mobile.png" width="32%">
+<img src="assets/images/readme_images/menu_mobile.png" width="32%">
+<img src="assets/images/readme_images/events_mobile.png" width="32%">
+</div>
 <br/>
 <br/>
 
