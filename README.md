@@ -75,6 +75,60 @@
 <p class="indent">•	Should be able to book fast.</p>
 <br/>
 
+<h3>UX solutions</h3>
+<br/>
+
+<h3>First Time Visitors</h3>
+
+<p class="indent">•	Should be able to answer the 3 questions we proposed before (Who are we? / What do we offer? / How can I get it?) easily.</p>
+<ul>
+<li class="indent">The name of the company, logo and events' name are on each page (header, banners,..)</li>
+<li class="indent">The images show what are we offering (food, drinks, ambience,...)</li>
+<li class="indent">There are buttons to book the events on each page</li>
+</ul>
+<p class="indent">•	Should feel the ambience and the Speakeasy story.</p>
+<ul>
+<li class="indent">The colours and the images / typography work together to create the desired feeling.</li>
+</ul>
+<p class="indent">•	Should be comfortable searching for more information.</p>
+<ul>
+<li class="indent">The buttons to access the information are big and the pages are simple and tidy, so the information is clear and the process to find out more too.</li>
+</ul>
+<p class="indent">•	Should want to share the website with others.</p>
+<ul>
+<li class="indent">The website try to be elegant with nice images and visually pleasant, so the users could be tempted to share it with friends.</li>
+</ul>
+<br/>
+<h3>Returning visitors</h3>
+
+<p class="indent">•	Should want to see when new events / menus are available.</p>
+<ul>
+<li class="indent">The menus have their own page with a big button to access to them so it's easy to get them.</li>
+<li class="indent">The events have their own page too and you can easily find out when are the coming up events.</li>
+</ul>
+<p class="indent">•	Should be able to book fast.</p>
+<ul>
+<li class="indent">There are booking buttons on each page and the user could book without scrolling the page.</li>
+</ul>
+<p class="indent">•	Should be reassured on the feeling about the events..</p>
+<ul>
+<li class="indent">The selection of colours and powerful images help to created a comfortable sensation, so the visitor can spend time on the website.</li>
+</ul>
+<br/>
+<h3>Frequent visitors</h3>
+
+<p class="indent">•	Should want to see when new events / menus are available.</p>
+<ul>
+<li class="indent">The menus have their own page with a big button to access to them so it's easy to get them.</li>
+<li class="indent">The events have their own page too and you can easily find out when are the coming up events.</li>
+<li class="indent">The footer of each page has links to the company's social media profiles, allowing the fequent visitor engagement with the company.</li>
+</ul>
+<p class="indent">•	Should be able to book fast.</p>
+<ul>
+<li class="indent">There are booking buttons on each page and the user could book without scrolling the page.</li>
+</ul>
+<br/>
+
 ## Technologies used<br/>
 <br/>
 
@@ -114,9 +168,9 @@
 <p class="indent">•	Desktop (Windows)</p>
 <p class="indent">•	Android tablets</p>
 <p class="indent">•	Mobile phones (Android)</p>
-
-<p>More testing has been done about usability and user experience:</p>
 <br/>
+<p>More testing has been done about usability and user experience. To achieve this, I proposed to some friends to navigate through the website and answer the questions about the UX goals explained before:</p>
+
 <h3>First Time Visitors</h3>
 
 <p class="indent">•	Should be able to answer the 3 questions we proposed before (Who are we? / What do we offer? / How can I get it?) easily.</p>
@@ -155,11 +209,11 @@
 
 <p class="indent">•	Should want to see when new events / menus are available.</p>
 <ul>
-<li class="indent">The users can book from the first page, and they can book at any moment during their visit.</li>
+<li class="indent">Again, the users check if there are new events and / or new menus.</li>
 </ul>
 <p class="indent">•	Should be able to book fast.</p>
 <ul>
-<li class="indent">Again, the users check if there are new events and / or new menus.</li>
+<li class="indent">The users can book from the first page, and they can book at any moment during their visit.</li>
 </ul>
 <br/>
 
