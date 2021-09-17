@@ -38,29 +38,6 @@
 </ul>
 <li class="indent">Surface: Visual design of the website.</li>
 </ul>
-
-## Design<br/>
-<br/>
-
-<p>The potential customers would be people between 25 and 45 years old, with a medium / high income. These group of people usually are professionals and they main device to connect socially is the mobile phone / tablet, for this reason the design of the website has been created focused on the mobile first approach.</p>
-
-<p>The spaces are limited, and they must be reserved, this gives the event some exclusivity value. The idea around the name, exclusivity, and the type of food / drinks they will create define the colour scheme used for the website: The roaring 20’s.</p> 
-<br/>
-<h2 align="center"><img src="assets/images/readme_images/colour_palette.png"></h2>
-<br/>
-<p>The approach for the layout was focused on the power of the imagery. The visitor should feel the ambient and the “essence” of the events without need to read long texts. The images are telling the story. Based on this principle, we searched for powerful images that represent the concept clearly: nice food, exciting drinks, cool and relaxed people… all involved in a golden and dark ambient.</p>
-
-<p>This was the proposed design for the different pages.</p>
-
-<br/>
-<div style="width:100%;">
-<img src="assets/images/readme_images/home_mobile.png" width="32%">
-<img src="assets/images/readme_images/menu_mobile.png" width="32%">
-<img src="assets/images/readme_images/events_mobile.png" width="32%">
-</div>
-<br/>
-
-<p>The typographies used are Asanine (used for the Hangfire logo), Montecarlo (used for the Speakeasy logo), and Barlow, a very easy to read typography that matches the retro and elegant style of the design (used for all the text on the website).</p>
 <br/>
 
 ## UX Goals<br/>
@@ -137,6 +114,30 @@
 <ul>
 <li class="indent">There are booking buttons on each page and the user could book without scrolling the page.</li>
 </ul>
+<br/>
+
+## Design<br/>
+<br/>
+
+<p>The potential customers would be people between 25 and 45 years old, with a medium / high income. These group of people usually are professionals and they main device to connect socially is the mobile phone / tablet, for this reason the design of the website has been created focused on the mobile first approach.</p>
+
+<p>The spaces are limited, and they must be reserved, this gives the event some exclusivity value. The idea around the name, exclusivity, and the type of food / drinks they will create define the colour scheme used for the website: The roaring 20’s.</p> 
+<br/>
+<h2 align="center"><img src="assets/images/readme_images/colour_palette.png"></h2>
+<br/>
+<p>The approach for the layout was focused on the power of the imagery. The visitor should feel the ambient and the “essence” of the events without need to read long texts. The images are telling the story. Based on this principle, we searched for powerful images that represent the concept clearly: nice food, exciting drinks, cool and relaxed people… all involved in a golden and dark ambient.</p>
+
+<p>This was the proposed design for the different pages.</p>
+
+<br/>
+<div style="width:100%;">
+<img src="assets/images/readme_images/home_mobile.png" width="32%">
+<img src="assets/images/readme_images/menu_mobile.png" width="32%">
+<img src="assets/images/readme_images/events_mobile.png" width="32%">
+</div>
+<br/>
+
+<p>The typographies used are Asanine (used for the Hangfire logo), Montecarlo (used for the Speakeasy logo), and Barlow, a very easy to read typography that matches the retro and elegant style of the design (used for all the text on the website).</p>
 <br/>
 
 ## Technologies used<br/>
